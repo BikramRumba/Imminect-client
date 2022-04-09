@@ -7,7 +7,7 @@ import '../dashboard/Dashboard.css';
 // This will be the Dashboard Page,
 // User will be able to see the the number of their contacts
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://imminect.herokuapp.com/';
 
 /*
     This removes the underline and makes the text blue from the links

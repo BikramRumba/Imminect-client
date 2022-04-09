@@ -2,8 +2,8 @@ import React, { useState, useContext } from 'react';
 import { UserContext } from '../../../contexts/UserContext';
 import { Link } from 'react-router-dom';
 import './UserEntry.css';
-import { Navbar, Form, Row, Col, Button } from 'react-bootstrap';
-const API_BASE = 'http://localhost:5000';
+import { Navbar, Form, Row, Col } from 'react-bootstrap';
+const API_BASE = 'https://imminect.herokuapp.com/';
 
 function UserEntry() {
 	const { user } = useContext(UserContext);
